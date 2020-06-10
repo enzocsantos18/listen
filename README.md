@@ -3,7 +3,7 @@
 A text-to-speech app using expo and react native.
 
 ## Interface
-<br><img src="https://github.com/enzocsantos18/listen/blob/master/assets/layout.png" height="80" width="80" ><br>
+<br><img src="https://github.com/enzocsantos18/listen/blob/master/assets/layout.png" height="200" width="auto" ><br>
 
 ## Instalation
 1. Install `expo-cli` globally using yarn or npm
