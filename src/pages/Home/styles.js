@@ -22,8 +22,14 @@ export const Input = styled.TextInput`
   margin-bottom: 16px;
 `;
 
+export const ButtonsContainer = styled.View`
+display: flex;
+flex-direction: row;
+`
 export const ListenButton = styled.TouchableOpacity`
   background: black;
+  flex: 1;
+  margin-right: 8px;
   padding: 20px;
   border-radius: 4px;
   align-items: center;
@@ -32,6 +38,21 @@ export const ListenButton = styled.TouchableOpacity`
 export const ListenText= styled.Text`
  color: white;
  font-weight: bold;
- height: 18px;
+ font-size: 18px;
+ 
+`;
+
+export const SpeedButton = styled.TouchableOpacity`
+  padding: 20px;
+  width: 90px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  align-items: center;
+`;
+
+export const SpeedText= styled.Text`
+ color: #000;
+ font-weight: bold;
+ font-size: 18px;
  
 `;

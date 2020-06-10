@@ -15,12 +15,19 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
+    
+  "androidNavigationBar": {
+ 
+    "barStyle": "dark-content",
+   "backgroundColor": "#ffffff"
+ },
     "ios": {
       "supportsTablet": true
     }

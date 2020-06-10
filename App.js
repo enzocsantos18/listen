@@ -5,7 +5,7 @@ import Home from './src/pages/Home'
 export default function App() {
   return (
     <>
-      <StatusBar translucent={true} />
+      <StatusBar translucent backgroundColor="#fff" barStyle="dark-content"/>
       <Home/>
     </>
   );
