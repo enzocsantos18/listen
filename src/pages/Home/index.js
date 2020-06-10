@@ -1,19 +1,22 @@
 import React from 'react';
-import { View, TextInput, TouchableHighlight, Text, Image} from 'react-native';
+import {Text} from 'react-native';
 import logo from '../../assets/logo.png'
-// import { Container } from './styles';
+import { Container, Logo, Input, ListenButton, ListenText} from './styles';
 
 const Home = () => {
   return (
-    <View>
-      <Image source={logo} />
-      <TextInput placeholder="Digite um texto aqui">
-
-      </TextInput>
-      <TouchableHighlight>
-        <Text>Escutar</Text>
-      </TouchableHighlight>
-    </View>
+    <Container>
+      <Logo source={logo} />
+      <Input 
+      style={{ textAlignVertical : "top" }}
+        scrollEnabled={true}
+        multiline={true}
+        placeholder="Digite um texto aqui..."
+      />
+      <ListenButton>
+        <ListenText>ESCUTAR</ListenText>
+      </ListenButton>
+    </Container>
   );
 }
 
